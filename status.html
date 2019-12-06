@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img class="troopers" src="img/troopers.png" alt="troopers">
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="status.html">Status</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      <div class="mainText">
+        <h2>S T A T U S</h2>
+        <h2>Total Power:
+          <p><input type="number" value="0" id="TotalPower" name="TotalPower" onclick="TotalPower()";>
+          <label for="name">kW</label></p>
+        </h2>
+      </div>
+      <div class="powersection">
+        <div class="statusImg">
+          <img id="falcon" class="energystatus" src="img/MillenniumFalcon.jpg" alt="MillenniumFalcon">
+          <p><input type="number" value="0" class="energyvalueinput" id="MillenniumFalcon" name="MillenniumFalcon" onclick="RandomMillenniumFalcon()";>
+            <label for="name">kW</label>
+          </p>
+        </div>
+        <div class="statusImg">
+          <img id="saber" class="energystatus" src="img/Lightsaber.jpeg" alt="Lightsaber">
+          <p><input type="number" value="0" class="energyvalueinput" id="Lightsaber" name="Lightsaber" onclick="RandomLightsaber()";>
+            <label for="name">kW</label>
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="rights">
+        <p>All rights reserved... or not.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="scripts.js"></script>
+</html>
